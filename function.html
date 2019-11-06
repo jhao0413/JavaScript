@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>面向对象</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function crate(name,mail) {
+
+			this.name = name;
+			this.mail = mail;
+
+			this.showname = function(){
+				alert("Name:"+this.name);
+			};
+
+			this.showmail = function(){
+				alert("mail:"+this.mail);
+			};
+
+		}
+
+		var obj = new crate("九號","384716045@qq.com");
+		obj.showname();
+		obj.showmail();
+	</script>
+</head>
+<body>
+
+</body>
+</html>
