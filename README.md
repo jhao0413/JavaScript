@@ -1,3 +1,3 @@
 # JavaScript
 
-###JavaScript学习中的小知识
+### JavaScript学习中的小知识
