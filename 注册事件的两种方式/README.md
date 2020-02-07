@@ -23,11 +23,12 @@ oBtn.onclick = function(){
 
 }
 ```
+### 推荐方法
 
 ```
 oBtn.addEventListener('click',function{
 
     alert('Hello World');
-    
+
 })
 ```
