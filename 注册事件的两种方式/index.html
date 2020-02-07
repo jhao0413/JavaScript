@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册事件的两种方式</title>
+</head>
+<body>
+    <button >点击1</button>
+    <button>点击2</button>
+    <script>
+        var aBtn = document.querySelectorAll('button');
+        //传统方法
+        aBtn[0].onclick = function(){
+            alert("Hello javaScript");
+        }
+        //事件监听注册事件
+        aBtn[1].addEventListener('click', function () {
+            alert("Hello World");
+        })
+        aBtn[1].addEventListener('click', function () {
+            alert("Hello World1");
+        })
+    </script>
+</body>
+</html>
