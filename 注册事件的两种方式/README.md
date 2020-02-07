@@ -24,6 +24,7 @@ oBtn.onclick = function(){
 }
 ```
 ### 推荐方法
+有兼容性问题(IE9以上)
 
 ```
 oBtn.addEventListener('click',function{
